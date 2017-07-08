@@ -1,0 +1,17 @@
+
+$font-family: 'Noto Sans UI'
+$font-name: 'Noto Sans UI'
+$name-prefix: 'Noto-Sans-UI'
+$file-prefix: 'NotoSansUI'
+
+@import "common/mixin"
+
+=setup-font($family, $style, $weight, $name, $short-name, $file)
+  @font-face
+    +font-attr($family, $style, $weight)
+    src: local($name), local($short-name), url('../fonts/' + $file + '.ttf') format('truetype')
+
++setup-font($font-family, normal, 400, $font-name + ' Regular', $name-prefix + '-Regular', $file-prefix + '-Regular')
++setup-font($font-family, italic, 400, $font-name + ' Italic', $name-prefix + '-Italic', $file-prefix + '-Italic')
++setup-font($font-family, normal, 700, $font-name + ' Bold', $name-prefix + '-Bold', $file-prefix + '-Bold')
++setup-font($font-family, italic, 700, $font-name + ' Bold Italic', $name-prefix + '-Bold-Italic', $file-prefix + '-BoldItalic')

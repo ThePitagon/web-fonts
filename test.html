@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App" ng-controller="AppCtrl as appCtrl" ng-cloak>
+<head>
+    <meta charset="UTF-8">
+    <title>Test page</title>
+    <link rel="stylesheet" href="travis-web-font-noto/css/noto.min.css">
+    <link rel="stylesheet" href="test/vendors/angular-material-1.1.4/angular-material.min.css">
+    <link rel="stylesheet" href="test/css/test.min.css">
+    <script src="test/vendors/jquery-1.12.4/jquery.min.js"></script>
+    <script src="test/vendors/angular-1.5.5/angular.min.js"></script>
+    <script src="test/vendors/angular-1.5.5/angular-route.min.js"></script>
+    <script src="test/vendors/angular-1.5.5/angular-animate.min.js"></script>
+    <script src="test/vendors/angular-1.5.5/angular-aria.min.js"></script>
+    <script src="test/vendors/angular-1.5.5/angular-messages.min.js"></script>
+    <script src="test/vendors/angular-1.5.5/angular-resource.min.js"></script>
+    <script src="test/vendors/angular-1.5.5/angular-cookies.min.js"></script>
+    <script src="test/vendors/angular-material-1.1.4/angular-material.min.js"></script>
+</head>
+<body>
+<section>
+    <fieldset>
+        <div class="legend">Test page for Travis Web Font - Noto</div>
+        <form>
+            <div layout-gt-xs="row">
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Font family</label>
+                    <md-select ng-model="formValue.fontFamily">
+                        <md-option ng-repeat="fontFamily in fontFamilies" value="{{fontFamily}}">
+                            {{fontFamily}}
+                        </md-option>
+                    </md-select>
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Font weight</label>
+                    <md-select ng-model="formValue.fontWeight">
+                        <md-option ng-repeat="fontWeight in fontWeights" value="{{fontWeight}}">
+                            {{fontWeight}}
+                        </md-option>
+                    </md-select>
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Font style</label>
+                    <md-select ng-model="formValue.fontStyle">
+                        <md-option ng-repeat="fontStyle in fontStyles" value="{{fontStyle}}">
+                            {{fontStyle}}
+                        </md-option>
+                    </md-select>
+                </md-input-container>
+                <md-slider-container class="md-block" flex-gt-xs>
+                    <md-slider flex min="8" max="128" ng-model="formValue.fontSize" aria-label="red">
+                    </md-slider>
+                    <span class="font-size">{{formValue.fontSize + 'px'}}</span>
+                </md-slider-container>
+            </div>
+            <div>
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Text</label>
+                    <textarea ng-model="formValue.text"></textarea>
+                    <div class="hint">Type here to preview text</div>
+                </md-input-container>
+            </div>
+            <div class="preview-text">
+                <span style="font-family: {{formValue.fontFamily}}; font-weight: {{formValue.fontWeight}}; font-style: {{formValue.fontStyle}}; font-size: {{formValue.fontSize + 'px'}}">{{formValue.text}}</span>
+            </div>
+        </form>
+    </fieldset>
+</section>
+<script src="test/js/test.min.js"></script>
+</body>
+</html>
