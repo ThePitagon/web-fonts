@@ -1,8 +1,8 @@
-# travis-web-font-noto
-Provide standalone stylesheet for Google Noto Fonts.
+# travis-web-fonts
+Google Noto Fonts
 
 Version: 1.0.0
 Release date: July 7, 2017
 Author: Travis Tran
 
-https://github.com/espringtran/travis-web-font-noto
+https://github.com/espringtran/travis-web-fonts

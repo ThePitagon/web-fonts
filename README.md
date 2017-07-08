@@ -1,2 +1,2 @@
-# travis-web-font-noto
-Provide standalone stylesheet for Google Noto Fonts.
+# travis-web-fonts
+Provide standalone stylesheet with enhanced features for web fonts.
