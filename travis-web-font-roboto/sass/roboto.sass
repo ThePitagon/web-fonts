@@ -1,0 +1,35 @@
+
+$font-family: 'Roboto'
+$font-name: 'Roboto'
+$name-prefix: 'Roboto'
+$file-prefix: 'Roboto'
+$dir: '../fonts/'
+
+@import "common/mixin"
+
+=setup-font($family, $style, $weight, $name, $short-name, $file)
+  @font-face
+    +font-attr($family, $style, $weight)
+    src: local($name), local($short-name), url($dir + $file + '.eot?#iefix') format('embedded-opentype'), url($dir + $file + '.woff') format('woff'), url($dir + $file + '.ttf') format('truetype'), url($dir + $file + '.svg#' + $file) format('svg')
+  @media screen and (-webkit-min-device-pixel-ratio: 0)
+    @font-face
+      +font-attr($family, $style, $weight)
+      src: local($name), local($short-name), url($dir + $file + '.svg#' + $file) format('svg')
+
++setup-font($font-family, normal, 100, $font-name + ' Thin', $name-prefix + '-Thin', $file-prefix + '-Thin')
++setup-font($font-family, italic, 100, $font-name + ' Thin Italic', $name-prefix + '-Thin-Italic', $file-prefix + '-ThinItalic')
+
++setup-font($font-family, normal, 300, $font-name + ' Light', $name-prefix + '-Light', $file-prefix + '-Light')
++setup-font($font-family, italic, 300, $font-name + ' Light Italic', $name-prefix + '-Light-Italic', $file-prefix + '-LightItalic')
+
++setup-font($font-family, normal, 400, $font-name + ' Regular', $name-prefix + '-Regular', $file-prefix + '-Regular')
++setup-font($font-family, italic, 400, $font-name + ' Italic', $name-prefix + '-Italic', $file-prefix + '-Italic')
+
++setup-font($font-family, normal, 500, $font-name + ' Medium', $name-prefix + '-Medium', $file-prefix + '-Medium')
++setup-font($font-family, italic, 500, $font-name + ' Medium Italic', $name-prefix + '-Medium-Italic', $file-prefix + '-MediumItalic')
+
++setup-font($font-family, normal, 700, $font-name + ' Bold', $name-prefix + '-Bold', $file-prefix + '-Bold')
++setup-font($font-family, italic, 700, $font-name + ' Bold Italic', $name-prefix + '-Bold-Italic', $file-prefix + '-BoldItalic')
+
++setup-font($font-family, normal, 900, $font-name + ' Black', $name-prefix + '-Black', $file-prefix + '-Black')
++setup-font($font-family, italic, 900, $font-name + ' Black Italic', $name-prefix + '-Black-Italic', $file-prefix + '-BlackItalic')
