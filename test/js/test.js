@@ -48,6 +48,10 @@
                 family: 'Helvetica Neue Condensed',
                 weights: [700, 900],
                 styles: DEF_STYLES
+            }, {
+                family: 'Segoe UI',
+                weights: [200, 300, 400, 600, 700],
+                styles: DEF_STYLES
             }];
             $scope.fontFamilies = [];
             $scope.fontWeights = [];

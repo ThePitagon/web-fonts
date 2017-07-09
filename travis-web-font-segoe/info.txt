@@ -1,0 +1,8 @@
+# travis-web-fonts
+Segoe Fonts
+
+Version: 1.0.0
+Release date: March 3, 2015
+Author: Travis Tran
+
+https://github.com/espringtran/travis-web-fonts

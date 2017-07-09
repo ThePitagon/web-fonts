@@ -1,0 +1,28 @@
+
+$font-family: 'Segoe UI'
+$font-name: 'Segoe UI'
+$name-prefix: 'Segoe-UI'
+$file-prefix: 'SegoeUI'
+$dir: '../fonts/'
+
+@import "common/mixin"
+
+=setup-font($family, $style, $weight, $name, $short-name, $file)
+  @font-face
+    +font-attr($family, $style, $weight)
+    src: local($name), local($short-name), url($dir + $file + '.ttf') format('truetype')
+
++setup-font($font-family, normal, 200, $font-name + ' Light', $name-prefix + '-Light', $file-prefix + '-Light')
++setup-font($font-family, italic, 200, $font-name + ' Light Italic', $name-prefix + '-Light-Italic', $file-prefix + '-LightItalic')
+
++setup-font($font-family, normal, 300, $font-name + ' Semilight', $name-prefix + '-Semilight', $file-prefix + '-Semilight')
++setup-font($font-family, italic, 300, $font-name + ' Semilight Italic', $name-prefix + '-Semilight-Italic', $file-prefix + '-SemilightItalic')
+
++setup-font($font-family, normal, 400, $font-name + ' Regular', $name-prefix + '-Regular', $file-prefix + '-Regular')
++setup-font($font-family, italic, 400, $font-name + ' Italic', $name-prefix + '-Italic', $file-prefix + '-Italic')
+
++setup-font($font-family, normal, 600, $font-name + ' Semibold', $name-prefix + '-Semibold', $file-prefix + '-Semibold')
++setup-font($font-family, italic, 600, $font-name + ' Semibold Italic', $name-prefix + '-Semibold-Italic', $file-prefix + '-SemiboldItalic')
+
++setup-font($font-family, normal, 700, $font-name + ' Bold', $name-prefix + '-Bold', $file-prefix + '-Bold')
++setup-font($font-family, italic, 700, $font-name + ' Bold Italic', $name-prefix + '-Bold-Italic', $file-prefix + '-BoldItalic')
