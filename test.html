@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="App" ng-controller="AppCtrl as appCtrl" ng-cloak>
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Test page</title>
     <link rel="stylesheet" href="travis-web-font-noto/css/noto.min.css">
+    <link rel="stylesheet" href="travis-web-font-roboto/css/roboto-aio.min.css">
     <link rel="stylesheet" href="test/vendors/angular-material-1.1.4/angular-material.min.css">
     <link rel="stylesheet" href="test/css/test.min.css">
     <script src="test/vendors/jquery-1.12.4/jquery.min.js"></script>
@@ -19,12 +21,12 @@
 <body>
 <section>
     <fieldset>
-        <div class="legend">Test page for Travis Web Font - Noto</div>
+        <div class="legend">Test page for Travis Web Fonts</div>
         <form>
             <div layout-gt-xs="row">
                 <md-input-container class="md-block" flex-gt-xs>
                     <label>Font family</label>
-                    <md-select ng-model="formValue.fontFamily">
+                    <md-select ng-model="formValue.fontFamily" ng-change="loadByFamily(formValue.fontFamily)">
                         <md-option ng-repeat="fontFamily in fontFamilies" value="{{fontFamily}}">
                             {{fontFamily}}
                         </md-option>
@@ -55,12 +57,12 @@
             <div>
                 <md-input-container class="md-block" flex-gt-xs>
                     <label>Text</label>
-                    <textarea ng-model="formValue.text"></textarea>
+                    <textarea ng-model="formValue.text" rows="3"></textarea>
                     <div class="hint">Type here to preview text</div>
                 </md-input-container>
             </div>
             <div class="preview-text">
-                <span style="font-family: {{formValue.fontFamily}}; font-weight: {{formValue.fontWeight}}; font-style: {{formValue.fontStyle}}; font-size: {{formValue.fontSize + 'px'}}">{{formValue.text}}</span>
+                <span style="font-family: {{formValue.fontFamily}}; font-weight: {{formValue.fontWeight}}; font-style: {{formValue.fontStyle}}; font-size: {{formValue.fontSize + 'px'}};">{{formValue.text}}</span>
             </div>
         </form>
     </fieldset>
