@@ -1,0 +1,31 @@
+
+$font-family: 'Helvetica Neue'
+$font-name: 'Helvetica Neue'
+$name-prefix: 'Helvetica-Neue'
+$file-prefix: 'HelveticaNeue'
+$dir: '../fonts/'
+
+@import "common/mixin"
+
+=setup-font($family, $style, $weight, $name, $short-name, $file)
+  @font-face
+    +font-attr($family, $style, $weight)
+    src: local($name), local($short-name), url($dir + $file + '.otf') format('opentype'), url($dir + $file + '.ttf') format('truetype')
+
++setup-font($font-family, normal, 100, $font-name + ' Ultra Light', $name-prefix + '-Ultra-Light', $file-prefix + '-UltraLight')
++setup-font($font-family, italic, 100, $font-name + ' Ultra Light Italic', $name-prefix + '-Ultra-Light-Italic', $file-prefix + '-UltraLightItalic')
+
++setup-font($font-family, normal, 300, $font-name + ' Light', $name-prefix + '-Light', $file-prefix + '-Light')
++setup-font($font-family, italic, 300, $font-name + ' Light Italic', $name-prefix + '-Light-Italic', $file-prefix + '-LightItalic')
+
++setup-font($font-family, normal, 400, $font-name + ' Regular', $name-prefix + '-Regular', $file-prefix + '-Regular')
++setup-font($font-family, italic, 400, $font-name + ' Italic', $name-prefix + '-Italic', $file-prefix + '-Italic')
+
++setup-font($font-family, normal, 500, $font-name + ' Medium', $name-prefix + '-Medium', $file-prefix + '-Medium')
+
++setup-font($font-family, normal, 700, $font-name + ' Bold', $name-prefix + '-Bold', $file-prefix + '-Bold')
++setup-font($font-family, italic, 700, $font-name + ' Bold Italic', $name-prefix + '-Bold-Italic', $file-prefix + '-BoldItalic')
+
++setup-font($font-family + ' Condensed', normal, 700, $font-name + ' Condensed Bold', $name-prefix + '-Condensed-Bold', $file-prefix + '-CondensedBold')
+
++setup-font($font-family + ' Condensed', normal, 900, $font-name + ' Condensed Black', $name-prefix + '-Condensed-Black', $file-prefix + '-CondensedBlack')

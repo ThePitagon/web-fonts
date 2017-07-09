@@ -19,26 +19,35 @@
                 }
             };
             // Initialization Routine
+            var DEF_STYLES = ['Normal', 'Italic'];
             $scope.fonts = [{
                 family: 'Noto Sans',
                 weights: [400, 700],
-                styles: ['normal', 'italic']
+                styles: DEF_STYLES
             }, {
                 family: 'Noto Sans UI',
                 weights: [400, 700],
-                styles: ['normal', 'italic']
+                styles: DEF_STYLES
             }, {
                 family: 'Noto Serif',
                 weights: [400, 700],
-                styles: ['normal', 'italic']
+                styles: DEF_STYLES
             }, {
                 family: 'Roboto',
                 weights: [100, 300, 400, 500, 700, 900],
-                styles: ['normal', 'italic']
+                styles: DEF_STYLES
             }, {
                 family: 'Roboto Condensed',
                 weights: [300, 400, 700],
-                styles: ['normal', 'italic']
+                styles: DEF_STYLES
+            }, {
+                family: 'Helvetica Neue',
+                weights: [100, 300, 400, 500, 700],
+                styles: DEF_STYLES
+            }, {
+                family: 'Helvetica Neue Condensed',
+                weights: [700, 900],
+                styles: DEF_STYLES
             }];
             $scope.fontFamilies = [];
             $scope.fontWeights = [];
