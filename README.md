@@ -1,10 +1,16 @@
 # travis-web-fonts
 
+### Latest version
+
+Version: 1.1.0
+Updated date: July 10, 2017
+
 ### Supports
 
-- Local font: use local font when requested font available in system.
-- Smooth: use some techniques to display font smoothly in almost browsers.
-- UTF-8: fully support Vietnamese.
+- `Local font` use local font when requested font available in system.
+- `Smooth` use some techniques to display font smoothly in almost browsers.
+- Full supported `languages`
+- Suitable for `private or local systems`
 
 ### Details
 

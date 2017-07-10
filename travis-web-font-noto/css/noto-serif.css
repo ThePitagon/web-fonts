@@ -2,22 +2,54 @@
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: 400;
-  src: local("Noto Serif Regular"), local("Noto-Serif-Regular"), url("../fonts/NotoSerif-Regular.ttf") format("truetype"); }
+  src: local("Noto Serif Regular"), local("Noto-Serif-Regular"), url("../fonts/NotoSerif-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSerif-Regular.svg#NotoSerif") format("svg"), url("../fonts/NotoSerif-Regular.ttf") format("truetype"), url("../fonts/NotoSerif-Regular.woff") format("woff"), url("../fonts/NotoSerif-Regular.woff2") format("woff2"), url("../fonts/NotoSerif-Regular.otf") format("opentype"), url("../fonts/NotoSerif-Regular.eot");
+  src: local("Noto Serif Regular"), local("Noto-Serif-Regular"), url("../fonts/NotoSerif-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSerif-Regular.svg#NotoSerif") format("svg"), url("../fonts/NotoSerif-Regular.ttf") format("truetype"), url("../fonts/NotoSerif-Regular.woff") format("woff"), url("../fonts/NotoSerif-Regular.woff2") format("woff2"), url("../fonts/NotoSerif-Regular.otf") format("opentype"), url("../fonts/NotoSerif-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSerif-Regular.svg#NotoSerif") format("svg"), url("../fonts/NotoSerif-Regular.ttf") format("truetype"), url("../fonts/NotoSerif-Regular.woff") format("woff"), url("../fonts/NotoSerif-Regular.woff2") format("woff2"), url("../fonts/NotoSerif-Regular.otf") format("opentype"); }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Noto Serif Regular"), local("Noto-Serif-Regular"), url("../fonts/NotoSerif-Regular.svg#NotoSerif") format("svg"); } }
 
 @font-face {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: 400;
-  src: local("Noto Serif Italic"), local("Noto-Serif-Italic"), url("../fonts/NotoSerif-Italic.ttf") format("truetype"); }
+  src: local("Noto Serif Italic"), local("Noto-Serif-Italic"), url("../fonts/NotoSerif-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSerif-Italic.svg#NotoSerif") format("svg"), url("../fonts/NotoSerif-Italic.ttf") format("truetype"), url("../fonts/NotoSerif-Italic.woff") format("woff"), url("../fonts/NotoSerif-Italic.woff2") format("woff2"), url("../fonts/NotoSerif-Italic.otf") format("opentype"), url("../fonts/NotoSerif-Italic.eot");
+  src: local("Noto Serif Italic"), local("Noto-Serif-Italic"), url("../fonts/NotoSerif-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSerif-Italic.svg#NotoSerif") format("svg"), url("../fonts/NotoSerif-Italic.ttf") format("truetype"), url("../fonts/NotoSerif-Italic.woff") format("woff"), url("../fonts/NotoSerif-Italic.woff2") format("woff2"), url("../fonts/NotoSerif-Italic.otf") format("opentype"), url("../fonts/NotoSerif-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSerif-Italic.svg#NotoSerif") format("svg"), url("../fonts/NotoSerif-Italic.ttf") format("truetype"), url("../fonts/NotoSerif-Italic.woff") format("woff"), url("../fonts/NotoSerif-Italic.woff2") format("woff2"), url("../fonts/NotoSerif-Italic.otf") format("opentype"); }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Noto Serif";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Noto Serif Italic"), local("Noto-Serif-Italic"), url("../fonts/NotoSerif-Italic.svg#NotoSerif") format("svg"); } }
 
 @font-face {
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: 700;
-  src: local("Noto Serif Bold"), local("Noto-Serif-Bold"), url("../fonts/NotoSerif-Bold.ttf") format("truetype"); }
+  src: local("Noto Serif Bold"), local("Noto-Serif-Bold"), url("../fonts/NotoSerif-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSerif-Bold.svg#NotoSerif") format("svg"), url("../fonts/NotoSerif-Bold.ttf") format("truetype"), url("../fonts/NotoSerif-Bold.woff") format("woff"), url("../fonts/NotoSerif-Bold.woff2") format("woff2"), url("../fonts/NotoSerif-Bold.otf") format("opentype"), url("../fonts/NotoSerif-Bold.eot");
+  src: local("Noto Serif Bold"), local("Noto-Serif-Bold"), url("../fonts/NotoSerif-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSerif-Bold.svg#NotoSerif") format("svg"), url("../fonts/NotoSerif-Bold.ttf") format("truetype"), url("../fonts/NotoSerif-Bold.woff") format("woff"), url("../fonts/NotoSerif-Bold.woff2") format("woff2"), url("../fonts/NotoSerif-Bold.otf") format("opentype"), url("../fonts/NotoSerif-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSerif-Bold.svg#NotoSerif") format("svg"), url("../fonts/NotoSerif-Bold.ttf") format("truetype"), url("../fonts/NotoSerif-Bold.woff") format("woff"), url("../fonts/NotoSerif-Bold.woff2") format("woff2"), url("../fonts/NotoSerif-Bold.otf") format("opentype"); }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Noto Serif Bold"), local("Noto-Serif-Bold"), url("../fonts/NotoSerif-Bold.svg#NotoSerif") format("svg"); } }
 
 @font-face {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: 700;
-  src: local("Noto Serif Bold Italic"), local("Noto-Serif-Bold-Italic"), url("../fonts/NotoSerif-BoldItalic.ttf") format("truetype"); }
+  src: local("Noto Serif Bold Italic"), local("Noto-Serif-Bold-Italic"), url("../fonts/NotoSerif-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSerif-BoldItalic.svg#NotoSerif") format("svg"), url("../fonts/NotoSerif-BoldItalic.ttf") format("truetype"), url("../fonts/NotoSerif-BoldItalic.woff") format("woff"), url("../fonts/NotoSerif-BoldItalic.woff2") format("woff2"), url("../fonts/NotoSerif-BoldItalic.otf") format("opentype"), url("../fonts/NotoSerif-BoldItalic.eot");
+  src: local("Noto Serif Bold Italic"), local("Noto-Serif-Bold-Italic"), url("../fonts/NotoSerif-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSerif-BoldItalic.svg#NotoSerif") format("svg"), url("../fonts/NotoSerif-BoldItalic.ttf") format("truetype"), url("../fonts/NotoSerif-BoldItalic.woff") format("woff"), url("../fonts/NotoSerif-BoldItalic.woff2") format("woff2"), url("../fonts/NotoSerif-BoldItalic.otf") format("opentype"), url("../fonts/NotoSerif-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSerif-BoldItalic.svg#NotoSerif") format("svg"), url("../fonts/NotoSerif-BoldItalic.ttf") format("truetype"), url("../fonts/NotoSerif-BoldItalic.woff") format("woff"), url("../fonts/NotoSerif-BoldItalic.woff2") format("woff2"), url("../fonts/NotoSerif-BoldItalic.otf") format("opentype"); }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Noto Serif";
+    font-style: italic;
+    font-weight: 700;
+    src: local("Noto Serif Bold Italic"), local("Noto-Serif-Bold-Italic"), url("../fonts/NotoSerif-BoldItalic.svg#NotoSerif") format("svg"); } }

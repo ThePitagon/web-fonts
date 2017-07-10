@@ -2,22 +2,54 @@
   font-family: "Noto Sans UI";
   font-style: normal;
   font-weight: 400;
-  src: local("Noto Sans UI Regular"), local("Noto-Sans-UI-Regular"), url("../fonts/NotoSansUI-Regular.ttf") format("truetype"); }
+  src: local("Noto Sans UI Regular"), local("Noto-Sans-UI-Regular"), url("../fonts/NotoSansUI-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansUI-Regular.svg#NotoSansUI") format("svg"), url("../fonts/NotoSansUI-Regular.ttf") format("truetype"), url("../fonts/NotoSansUI-Regular.woff") format("woff"), url("../fonts/NotoSansUI-Regular.woff2") format("woff2"), url("../fonts/NotoSansUI-Regular.otf") format("opentype"), url("../fonts/NotoSansUI-Regular.eot");
+  src: local("Noto Sans UI Regular"), local("Noto-Sans-UI-Regular"), url("../fonts/NotoSansUI-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansUI-Regular.svg#NotoSansUI") format("svg"), url("../fonts/NotoSansUI-Regular.ttf") format("truetype"), url("../fonts/NotoSansUI-Regular.woff") format("woff"), url("../fonts/NotoSansUI-Regular.woff2") format("woff2"), url("../fonts/NotoSansUI-Regular.otf") format("opentype"), url("../fonts/NotoSansUI-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansUI-Regular.svg#NotoSansUI") format("svg"), url("../fonts/NotoSansUI-Regular.ttf") format("truetype"), url("../fonts/NotoSansUI-Regular.woff") format("woff"), url("../fonts/NotoSansUI-Regular.woff2") format("woff2"), url("../fonts/NotoSansUI-Regular.otf") format("opentype"); }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Noto Sans UI";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Noto Sans UI Regular"), local("Noto-Sans-UI-Regular"), url("../fonts/NotoSansUI-Regular.svg#NotoSansUI") format("svg"); } }
 
 @font-face {
   font-family: "Noto Sans UI";
   font-style: italic;
   font-weight: 400;
-  src: local("Noto Sans UI Italic"), local("Noto-Sans-UI-Italic"), url("../fonts/NotoSansUI-Italic.ttf") format("truetype"); }
+  src: local("Noto Sans UI Italic"), local("Noto-Sans-UI-Italic"), url("../fonts/NotoSansUI-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansUI-Italic.svg#NotoSansUI") format("svg"), url("../fonts/NotoSansUI-Italic.ttf") format("truetype"), url("../fonts/NotoSansUI-Italic.woff") format("woff"), url("../fonts/NotoSansUI-Italic.woff2") format("woff2"), url("../fonts/NotoSansUI-Italic.otf") format("opentype"), url("../fonts/NotoSansUI-Italic.eot");
+  src: local("Noto Sans UI Italic"), local("Noto-Sans-UI-Italic"), url("../fonts/NotoSansUI-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansUI-Italic.svg#NotoSansUI") format("svg"), url("../fonts/NotoSansUI-Italic.ttf") format("truetype"), url("../fonts/NotoSansUI-Italic.woff") format("woff"), url("../fonts/NotoSansUI-Italic.woff2") format("woff2"), url("../fonts/NotoSansUI-Italic.otf") format("opentype"), url("../fonts/NotoSansUI-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansUI-Italic.svg#NotoSansUI") format("svg"), url("../fonts/NotoSansUI-Italic.ttf") format("truetype"), url("../fonts/NotoSansUI-Italic.woff") format("woff"), url("../fonts/NotoSansUI-Italic.woff2") format("woff2"), url("../fonts/NotoSansUI-Italic.otf") format("opentype"); }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Noto Sans UI";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Noto Sans UI Italic"), local("Noto-Sans-UI-Italic"), url("../fonts/NotoSansUI-Italic.svg#NotoSansUI") format("svg"); } }
 
 @font-face {
   font-family: "Noto Sans UI";
   font-style: normal;
   font-weight: 700;
-  src: local("Noto Sans UI Bold"), local("Noto-Sans-UI-Bold"), url("../fonts/NotoSansUI-Bold.ttf") format("truetype"); }
+  src: local("Noto Sans UI Bold"), local("Noto-Sans-UI-Bold"), url("../fonts/NotoSansUI-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansUI-Bold.svg#NotoSansUI") format("svg"), url("../fonts/NotoSansUI-Bold.ttf") format("truetype"), url("../fonts/NotoSansUI-Bold.woff") format("woff"), url("../fonts/NotoSansUI-Bold.woff2") format("woff2"), url("../fonts/NotoSansUI-Bold.otf") format("opentype"), url("../fonts/NotoSansUI-Bold.eot");
+  src: local("Noto Sans UI Bold"), local("Noto-Sans-UI-Bold"), url("../fonts/NotoSansUI-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansUI-Bold.svg#NotoSansUI") format("svg"), url("../fonts/NotoSansUI-Bold.ttf") format("truetype"), url("../fonts/NotoSansUI-Bold.woff") format("woff"), url("../fonts/NotoSansUI-Bold.woff2") format("woff2"), url("../fonts/NotoSansUI-Bold.otf") format("opentype"), url("../fonts/NotoSansUI-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansUI-Bold.svg#NotoSansUI") format("svg"), url("../fonts/NotoSansUI-Bold.ttf") format("truetype"), url("../fonts/NotoSansUI-Bold.woff") format("woff"), url("../fonts/NotoSansUI-Bold.woff2") format("woff2"), url("../fonts/NotoSansUI-Bold.otf") format("opentype"); }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Noto Sans UI";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Noto Sans UI Bold"), local("Noto-Sans-UI-Bold"), url("../fonts/NotoSansUI-Bold.svg#NotoSansUI") format("svg"); } }
 
 @font-face {
   font-family: "Noto Sans UI";
   font-style: italic;
   font-weight: 700;
-  src: local("Noto Sans UI Bold Italic"), local("Noto-Sans-UI-Bold-Italic"), url("../fonts/NotoSansUI-BoldItalic.ttf") format("truetype"); }
+  src: local("Noto Sans UI Bold Italic"), local("Noto-Sans-UI-Bold-Italic"), url("../fonts/NotoSansUI-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansUI-BoldItalic.svg#NotoSansUI") format("svg"), url("../fonts/NotoSansUI-BoldItalic.ttf") format("truetype"), url("../fonts/NotoSansUI-BoldItalic.woff") format("woff"), url("../fonts/NotoSansUI-BoldItalic.woff2") format("woff2"), url("../fonts/NotoSansUI-BoldItalic.otf") format("opentype"), url("../fonts/NotoSansUI-BoldItalic.eot");
+  src: local("Noto Sans UI Bold Italic"), local("Noto-Sans-UI-Bold-Italic"), url("../fonts/NotoSansUI-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansUI-BoldItalic.svg#NotoSansUI") format("svg"), url("../fonts/NotoSansUI-BoldItalic.ttf") format("truetype"), url("../fonts/NotoSansUI-BoldItalic.woff") format("woff"), url("../fonts/NotoSansUI-BoldItalic.woff2") format("woff2"), url("../fonts/NotoSansUI-BoldItalic.otf") format("opentype"), url("../fonts/NotoSansUI-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansUI-BoldItalic.svg#NotoSansUI") format("svg"), url("../fonts/NotoSansUI-BoldItalic.ttf") format("truetype"), url("../fonts/NotoSansUI-BoldItalic.woff") format("woff"), url("../fonts/NotoSansUI-BoldItalic.woff2") format("woff2"), url("../fonts/NotoSansUI-BoldItalic.otf") format("opentype"); }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Noto Sans UI";
+    font-style: italic;
+    font-weight: 700;
+    src: local("Noto Sans UI Bold Italic"), local("Noto-Sans-UI-Bold-Italic"), url("../fonts/NotoSansUI-BoldItalic.svg#NotoSansUI") format("svg"); } }

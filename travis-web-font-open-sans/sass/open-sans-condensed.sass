@@ -1,0 +1,15 @@
+
+@import "../../common/mixin"
+
+$font-family: 'Open Sans Condensed'
+$font-name: 'Open Sans Condensed'
+$name-prefix: 'Open-Sans-Condensed'
+$file-prefix: 'OpenSansCondensed'
+$dir: '../fonts/'
+
+$types: "eot" "svg" "ttf" "woff" "woff2" "otf"
+$params: ("Light" "Light" "Light" 300 (normal italic)), ("Bold" "Bold" "Bold" 700 (normal))
+
+$font: ($font-family, $font-name, $name-prefix, $file-prefix, $dir)
+
++setup-font($font, $params, $types)

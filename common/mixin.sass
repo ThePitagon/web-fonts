@@ -1,0 +1,78 @@
+=font-attr($font-family, $font-style, $font-weight)
+  font-family: $font-family
+  font-style: $font-style
+  font-weight: $font-weight
+
+@function contains($list, $var)
+  @return (null != index($list, $var))
+
+@function generateName($name, $weight, $style)
+  $result: " " + $weight
+  @if($style == italic and $weight == "Regular")
+    $result: ""
+  @if($style == italic)
+    $result: $result + " Italic"
+  @return local($name + $result)
+
+@function generateShortName($shortName, $weight, $style)
+  $result: "-" + $weight
+  @if($style == italic and $weight == "Regular")
+    $result: ""
+  @if($style == italic)
+    $result: $result + "-Italic"
+  @return local($shortName + $result)
+
+@function generateFileName($dir, $file, $weight, $style, $ext)
+  $postFix: $weight
+  @if($style == italic and $weight == "Regular")
+    $postFix: ""
+  @if($style == italic)
+    $postFix: $postFix + "Italic"
+  @return $dir + $file + "-" + $postFix + "." + $ext
+
+@function generateSrcUrl($dir, $file, $weight, $style, $ext)
+  $format: ""
+  @if($ext == "eot")
+    $ext: $ext + "?#iefix"
+    $format: "embedded-opentype"
+  @else if($ext == "woff2")
+    $format: "woff2"
+  @else if($ext == "woff")
+    $format: "woff"
+  @else if($ext == "ttf")
+    $format: "truetype"
+  @else if($ext == "svg")
+    $ext: $ext + "#" + $file
+    $format: "svg"
+  @else if($ext == "otf")
+    $format: "opentype"
+  $fileName: generateFileName($dir, $file, $weight, $style, $ext)
+  @return url($fileName) format($format)
+
+=setup-font($font, $params, $types)
+  $family: nth($font, 1)
+  $name: nth($font, 2)
+  $shortName: nth($font, 3)
+  $file: nth($font, 4)
+  $dir: nth($font, 5)
+
+  @each $param in $params
+    $weight: nth($param, 4)
+    @each $style in nth($param, 5)
+      @font-face
+        +font-attr($family, $style, $weight)
+        $srcAttr: generateName($name, nth($param, 1), $style), generateShortName($shortName, nth($param, 2), $style)
+        @each $type in $types
+          $srcAttr: append($srcAttr, generateSrcUrl($dir, $file, nth($param, 3), $style, $type))
+        @if (contains($types, "eot"))
+          $fontFile: generateFileName($dir, $file, nth($param, 3), $style, "eot")
+          src: append($srcAttr, url($fontFile))
+        @each $type in $types
+          $srcAttr: append($srcAttr, generateSrcUrl($dir, $file, nth($param, 3), $style, $type))
+        src: $srcAttr
+      @if (contains($types, "svg"))
+        @media screen and (-webkit-min-device-pixel-ratio: 0)
+          @font-face
+            +font-attr($family, $style, $weight)
+            $srcAttr: generateName($name, nth($param, 1), $style), generateShortName($shortName, nth($param, 2), $style)
+            src: append($srcAttr, generateSrcUrl($dir, $file, nth($param, 3), $style, "svg"))

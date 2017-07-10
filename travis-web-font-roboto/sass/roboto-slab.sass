@@ -1,0 +1,15 @@
+
+@import "../../common/mixin"
+
+$font-family: 'Roboto Slab'
+$font-name: 'Roboto Slab'
+$name-prefix: 'Roboto-Slab'
+$file-prefix: 'RobotoSlab'
+$dir: '../fonts/'
+
+$types: "eot" "svg" "ttf" "woff" "woff2" "otf"
+$params: ("Thin" "Thin" "Thin" 100 (normal)), ("Light" "Light" "Light" 300 (normal)), ("Regular" "Regular" "Regular" 400 (normal)), ("Bold" "Bold" "Bold" 700 (normal))
+
+$font: ($font-family, $font-name, $name-prefix, $file-prefix, $dir)
+
++setup-font($font, $params, $types)

@@ -1,0 +1,15 @@
+
+@import "../../common/mixin"
+
+$font-family: 'Roboto Mono'
+$font-name: 'Roboto Mono'
+$name-prefix: 'Roboto-Mono'
+$file-prefix: 'RobotoMono'
+$dir: '../fonts/'
+
+$types: "eot" "svg" "ttf" "woff" "woff2" "otf"
+$params: ("Thin" "Thin" "Thin" 100 (normal italic)), ("Light" "Light" "Light" 300 (normal italic)), ("Regular" "Regular" "Regular" 400 (normal italic)), ("Medium" "Medium" "Medium" 500 (normal italic)), ("Bold" "Bold" "Bold" 700 (normal italic))
+
+$font: ($font-family, $font-name, $name-prefix, $file-prefix, $dir)
+
++setup-font($font, $params, $types)

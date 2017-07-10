@@ -1,7 +1,8 @@
 # travis-web-fonts
 Helvetica Neue Fonts
 
-Version: 1.0.0
+Version: 1.1.0
+Updated date: July 10, 2017
 Release date: August 1, 2015
 Author: Travis Tran
 

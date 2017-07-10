@@ -1,0 +1,15 @@
+
+@import "../../common/mixin"
+
+$font-family: 'Open Sans'
+$font-name: 'Open Sans'
+$name-prefix: 'Open-Sans'
+$file-prefix: 'OpenSans'
+$dir: '../fonts/'
+
+$types: "eot" "svg" "ttf" "woff" "woff2" "otf"
+$params: ("Light" "Light" "Light" 300 (normal italic)), ("Regular" "Regular" "Regular" 400 (normal italic)), ("Semi Bold" "Semi-Bold" "SemiBold" 600 (normal italic)), ("Bold" "Bold" "Bold" 700 (normal italic)), ("Extra Bold" "Extra-Bold" "ExtraBold" 800 (normal italic))
+
+$font: ($font-family, $font-name, $name-prefix, $file-prefix, $dir)
+
++setup-font($font, $params, $types)

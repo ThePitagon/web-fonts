@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 100;
+  src: local("Roboto Slab Thin"), local("Roboto-Slab-Thin"), url("../fonts/RobotoSlab-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlab-Thin.svg#RobotoSlab") format("svg"), url("../fonts/RobotoSlab-Thin.ttf") format("truetype"), url("../fonts/RobotoSlab-Thin.woff") format("woff"), url("../fonts/RobotoSlab-Thin.woff2") format("woff2"), url("../fonts/RobotoSlab-Thin.otf") format("opentype"), url("../fonts/RobotoSlab-Thin.eot");
+  src: local("Roboto Slab Thin"), local("Roboto-Slab-Thin"), url("../fonts/RobotoSlab-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlab-Thin.svg#RobotoSlab") format("svg"), url("../fonts/RobotoSlab-Thin.ttf") format("truetype"), url("../fonts/RobotoSlab-Thin.woff") format("woff"), url("../fonts/RobotoSlab-Thin.woff2") format("woff2"), url("../fonts/RobotoSlab-Thin.otf") format("opentype"), url("../fonts/RobotoSlab-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlab-Thin.svg#RobotoSlab") format("svg"), url("../fonts/RobotoSlab-Thin.ttf") format("truetype"), url("../fonts/RobotoSlab-Thin.woff") format("woff"), url("../fonts/RobotoSlab-Thin.woff2") format("woff2"), url("../fonts/RobotoSlab-Thin.otf") format("opentype"); }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 100;
+    src: local("Roboto Slab Thin"), local("Roboto-Slab-Thin"), url("../fonts/RobotoSlab-Thin.svg#RobotoSlab") format("svg"); } }
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Slab Light"), local("Roboto-Slab-Light"), url("../fonts/RobotoSlab-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlab-Light.svg#RobotoSlab") format("svg"), url("../fonts/RobotoSlab-Light.ttf") format("truetype"), url("../fonts/RobotoSlab-Light.woff") format("woff"), url("../fonts/RobotoSlab-Light.woff2") format("woff2"), url("../fonts/RobotoSlab-Light.otf") format("opentype"), url("../fonts/RobotoSlab-Light.eot");
+  src: local("Roboto Slab Light"), local("Roboto-Slab-Light"), url("../fonts/RobotoSlab-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlab-Light.svg#RobotoSlab") format("svg"), url("../fonts/RobotoSlab-Light.ttf") format("truetype"), url("../fonts/RobotoSlab-Light.woff") format("woff"), url("../fonts/RobotoSlab-Light.woff2") format("woff2"), url("../fonts/RobotoSlab-Light.otf") format("opentype"), url("../fonts/RobotoSlab-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlab-Light.svg#RobotoSlab") format("svg"), url("../fonts/RobotoSlab-Light.ttf") format("truetype"), url("../fonts/RobotoSlab-Light.woff") format("woff"), url("../fonts/RobotoSlab-Light.woff2") format("woff2"), url("../fonts/RobotoSlab-Light.otf") format("opentype"); }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Roboto Slab Light"), local("Roboto-Slab-Light"), url("../fonts/RobotoSlab-Light.svg#RobotoSlab") format("svg"); } }
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Slab Regular"), local("Roboto-Slab-Regular"), url("../fonts/RobotoSlab-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlab-Regular.svg#RobotoSlab") format("svg"), url("../fonts/RobotoSlab-Regular.ttf") format("truetype"), url("../fonts/RobotoSlab-Regular.woff") format("woff"), url("../fonts/RobotoSlab-Regular.woff2") format("woff2"), url("../fonts/RobotoSlab-Regular.otf") format("opentype"), url("../fonts/RobotoSlab-Regular.eot");
+  src: local("Roboto Slab Regular"), local("Roboto-Slab-Regular"), url("../fonts/RobotoSlab-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlab-Regular.svg#RobotoSlab") format("svg"), url("../fonts/RobotoSlab-Regular.ttf") format("truetype"), url("../fonts/RobotoSlab-Regular.woff") format("woff"), url("../fonts/RobotoSlab-Regular.woff2") format("woff2"), url("../fonts/RobotoSlab-Regular.otf") format("opentype"), url("../fonts/RobotoSlab-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlab-Regular.svg#RobotoSlab") format("svg"), url("../fonts/RobotoSlab-Regular.ttf") format("truetype"), url("../fonts/RobotoSlab-Regular.woff") format("woff"), url("../fonts/RobotoSlab-Regular.woff2") format("woff2"), url("../fonts/RobotoSlab-Regular.otf") format("opentype"); }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto Slab Regular"), local("Roboto-Slab-Regular"), url("../fonts/RobotoSlab-Regular.svg#RobotoSlab") format("svg"); } }
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Slab Bold"), local("Roboto-Slab-Bold"), url("../fonts/RobotoSlab-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlab-Bold.svg#RobotoSlab") format("svg"), url("../fonts/RobotoSlab-Bold.ttf") format("truetype"), url("../fonts/RobotoSlab-Bold.woff") format("woff"), url("../fonts/RobotoSlab-Bold.woff2") format("woff2"), url("../fonts/RobotoSlab-Bold.otf") format("opentype"), url("../fonts/RobotoSlab-Bold.eot");
+  src: local("Roboto Slab Bold"), local("Roboto-Slab-Bold"), url("../fonts/RobotoSlab-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlab-Bold.svg#RobotoSlab") format("svg"), url("../fonts/RobotoSlab-Bold.ttf") format("truetype"), url("../fonts/RobotoSlab-Bold.woff") format("woff"), url("../fonts/RobotoSlab-Bold.woff2") format("woff2"), url("../fonts/RobotoSlab-Bold.otf") format("opentype"), url("../fonts/RobotoSlab-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoSlab-Bold.svg#RobotoSlab") format("svg"), url("../fonts/RobotoSlab-Bold.ttf") format("truetype"), url("../fonts/RobotoSlab-Bold.woff") format("woff"), url("../fonts/RobotoSlab-Bold.woff2") format("woff2"), url("../fonts/RobotoSlab-Bold.otf") format("opentype"); }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Roboto Slab Bold"), local("Roboto-Slab-Bold"), url("../fonts/RobotoSlab-Bold.svg#RobotoSlab") format("svg"); } }
