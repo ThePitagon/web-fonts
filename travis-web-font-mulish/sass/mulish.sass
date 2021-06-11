@@ -1,0 +1,15 @@
+
+@import "../../common/mixin"
+
+$font-family: 'Mulish'
+$font-name: 'Mulish'
+$name-prefix: 'Mulish'
+$file-prefix: 'Mulish'
+$dir: '../fonts/'
+
+$types: "ttf"
+$params: ("Extra Light" "Extra-Light" "ExtraLight" 200 (normal italic)), ("Light" "Light" "Light" 300 (normal italic)), ("Regular" "Regular" "Regular" 400 (normal italic)), ("Medium" "Medium" "Medium" 500 (normal italic)), ("Semi Bold" "Semi-Bold" "SemiBold" 600 (normal italic)), ("Bold" "Bold" "Bold" 700 (normal italic)), ("Extra Bold" "Extra-Bold" "ExtraBold" 800 (normal italic)), ("Black" "Black" "Black" 900 (normal italic))
+
+$font: ($font-family, $font-name, $name-prefix, $file-prefix, $dir)
+
++setup-font($font, $params, $types)

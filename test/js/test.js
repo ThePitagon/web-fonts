@@ -68,6 +68,10 @@
                 family: 'Segoe UI',
                 weights: [200, 300, 400, 600, 700],
                 styles: DEF_STYLES
+            }, {
+                family: 'Mulish',
+                weights: [200, 300, 400, 500, 600, 700, 800, 900],
+                styles: DEF_STYLES
             }];
             $scope.fontFamilies = [];
             $scope.fontWeights = [];
@@ -80,7 +84,7 @@
             $scope.formValue.fontWeight = $scope.fontWeights[0];
             $scope.formValue.fontStyle = $scope.fontStyles[0];
             $scope.formValue.fontSize = 24;
-            $scope.formValue.text = 'Here is preview text.';
+            $scope.formValue.text = 'Chúng tôi đã đạt tới độ cao rất lớn trong khí quyển vì bầu trời tối đen và các vì sao không còn lấp lánh. Ảo giác về đường chân trời khiến đám mây ảm đạm bên dưới lõm xuống và chiếc xe như trôi bồng bềnh giữa quả cầu khổng lồ tăm tối.';
             $scope.loadByFamily($scope.formValue.fontFamily);
         });
 })();

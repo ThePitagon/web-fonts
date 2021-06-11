@@ -119,6 +119,17 @@ Font family, font weight, font style available:
       <td>B</td>
       <td>Bk</td>
     </tr>
+    <tr>
+      <td>Mulish</td>
+      <td>uL, uLI</td>
+      <td>L, LI</td>
+      <td>sL, sLI</td>
+      <td>R, I</td>
+      <td>M, MI</td>
+      <td>sB, sBI</td>
+      <td>B, BI</td>
+      <td>Bk, BkI</td>
+    </tr>
   </tbody>
 </table>
 
@@ -134,7 +145,8 @@ Download version of font you need from `release` folder, extract it to font fold
     <link rel="stylesheet" href="fonts/travis-web-font-noto/css/noto.min.css">
     <link rel="stylesheet" href="fonts/travis-web-font-roboto/css/roboto-aio.min.css">
     <link rel="stylesheet" href="fonts/travis-web-font-helvetica-neue/css/helvetica-neue.min.css">
-    <link rel="stylesheet" href="fonts/travis-web-font-segoe/css/font-segoe.min.css">
+    <link rel="stylesheet" href="fonts/travis-web-font-segoe/css/segoe.min.css">
+    <link rel="stylesheet" href="fonts/travis-web-font-mulish/css/mulish.min.css">
     ...
 </head>
 ```

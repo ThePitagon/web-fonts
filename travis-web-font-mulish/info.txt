@@ -1,0 +1,9 @@
+# travis-web-fonts
+Google Mulish
+
+Version: 1.0.0
+Updated date: Jun 11, 2021
+Release date: Jun 11, 2021
+Author: Travis Tran
+
+https://github.com/travistran1989/travis-web-fonts
