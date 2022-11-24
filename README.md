@@ -1,9 +1,10 @@
-# travis-web-fonts
+# Web Fonts
+[<img src="https://img.shields.io/twitter/follow/travistran1989.svg?label=Follow&style=social">](https://twitter.com/travistran1989)
 
 ### Latest version
 
-Version: 1.1.0
-Updated date: July 10, 2017
+Version: 1.2.0
+Updated date: November 24, 2022
 
 ### Supports
 
@@ -150,3 +151,12 @@ Download version of font you need from `release` folder, extract it to font fold
     ...
 </head>
 ```
+
+## Support & Feedback
+If you still have a question after using Web Fonts, you have a few options.
+* Using support page on [Pitagon Website](https://pitagon.io).
+* Send email to [Pitagon Support Team](mailto:support@pitagon.vn) for help.
+* Connect [Travis Tran on Facebook](https://www.facebook.com/travistran1989) for real-time discussion.
+* Reporting any issue on [Github web-fonts](https://github.com/Pitagon-P5N/web-fonts/issues) project.
+
+**Pull requests are always welcome**
